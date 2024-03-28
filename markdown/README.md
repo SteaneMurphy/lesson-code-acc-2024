@@ -27,3 +27,8 @@ public void main(string[] args){
 - One
 - Two
 - Three
+
+We can insert a [hyperlink](http://www.google.com) like this
+
+Images can be embedded by preceding a link with !
+![Pic of a bacon](https://baconmockup.com/206/200)
