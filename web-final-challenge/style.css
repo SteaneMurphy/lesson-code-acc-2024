@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h4
+{
+    color: #8980C2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    background: white;
+}
+
+.navBar img
+{
+    width: 2em;
+    height: 2em;
+}
+
+.navBar a
+{
+    text-decoration: none;
+    padding: 1em;
+    color: inherit;
+}
+
+.header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30vh;
+    background: black;
+    padding: 10px 0;
+}
+
+.header img
+{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header h4
+{
+    font-size: 1.5em;
+    color: white;
+}
+
+.headContBox
+{
+    text-align: center;
+    color: white;
+    width: 5%;
+    height: 10%;
+    border: 1px solid white;
+}
+
+.mainContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+    background: white;
+    overflow: hidden;
+}
+
+.mainText
+{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.one, .two, .three
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    flex-wrap: wrap;
+    text-align: center;
+    background: white;
+}
+
+.mainContainer p, h4
+{
+    display: flex;
+    text-align:start;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    width: 100%;
+}
+
+.mainContBox
+{
+    width:auto;
+    height: 10%;
+    border: solid #8980C2;
+}
+
+.mainContainer img
+{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border: solid #8980C2;
+}
+
+.socialBar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 13vh;
+    background: #8980C2;
+    padding: 10px 0;
+}
+
+.socialText
+{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.socialImg img
+{
+    padding: 0 .75em;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    padding: 1.5em;
+    background: white;
+}
+
